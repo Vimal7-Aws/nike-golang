@@ -7,3 +7,10 @@
 
 # .tfvars files
 *.tfvars
+
+
+.gradle/
+.idea/
+build/
+gradle/
+*.iml
