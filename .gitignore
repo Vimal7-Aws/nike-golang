@@ -5,10 +5,13 @@
 *.tfstate
 *.tfstate.*
 
+/terraform/*.tfstate
+/terraform/*.tfstate.*
+
 # .tfvars files
 *.tfvars
-
-
+*.zip
+files/
 .gradle/
 .idea/
 build/
