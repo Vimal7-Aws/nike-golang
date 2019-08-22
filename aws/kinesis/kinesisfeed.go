@@ -1,1 +1,7 @@
 package kinesis
+
+
+
+func FeedStream() {
+
+}

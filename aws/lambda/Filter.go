@@ -15,6 +15,7 @@ func Handler(ctx context.Context, kinesisEvent events.KinesisEvent) {
 		dataBytes := kinesisRecord.Data
 		dataText := string(dataBytes)
 
+
 		fmt.Printf("%s Data = %s \n", record.EventName, dataText)
 	}
 
